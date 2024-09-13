@@ -29,11 +29,7 @@ let isEmpty = false;
 let empty = null;
 
 // 5. Undefined Type - 변수를 초기화하지 않았거나 존재하지 않는 것을 가져올 때
-let none;
-console.log(none);
-console.log(empty);
-console.log(isEmpty);
-
+let none; 
 
 
 

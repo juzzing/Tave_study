@@ -6,7 +6,7 @@
 
 import { useState } from 'react';
 
-const Register = () => {
+const Register1 = () => {
     const [name, setName] = useState("이름");
     const [birth, setBirth] = useState("");
     const [country, setCountry] = useState("");
@@ -72,4 +72,4 @@ const Register = () => {
     );
 };
 
-export default Register;
+export default Register1;

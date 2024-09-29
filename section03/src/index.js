@@ -16,6 +16,7 @@
 // console.log(mul(2,3));
 
 // 라이브러리: 다양한 기능을 모듈화 해 놓아 설치 후 사용 가능한 것
+// package-lock 혹은 node_module이 삭제됐을 때 npm i 를 입력시 package.json의 dependencies에 저장된 게 다시 설치됨
 import randomColor from 'randomcolor'; //라이브러리는 경로 필요 X 이름만
 
 const color = randomColor();

@@ -10,4 +10,4 @@ function useInput() { //get을 use로 바꾸면 훅이 된다(커스텀 훅 완�
     return [input,onChange];
 }
 
-export defaule useInput;
+export default useInput;

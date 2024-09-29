@@ -12,5 +12,5 @@
   "type": "module",
   "dependencies": {
     "randomcolor": "^0.6.2"
-  } // package-lock 혹은 node_module이 삭제됐을 때 npm i 를 입력시 dependencies에 저장된 게 다시 설치됨
+  }
 }

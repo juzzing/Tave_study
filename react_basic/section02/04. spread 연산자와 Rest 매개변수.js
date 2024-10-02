@@ -24,7 +24,7 @@ funcA(...arr1);
 // 2. Rest 매개변수
 // -> Rest는 나머지, 나머지 매개변수
 
-function funcB(one, ...rest) { // 첫 번째는 one에 담기고 나머지는 rest(배열)에 저장됨
+function funcB(one, ...rest) { // 첫 번째는 one에 담기고, 나머지는 rest(배열)에 저장됨
     console.log(rest);
 }
 

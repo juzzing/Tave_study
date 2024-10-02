@@ -10,8 +10,8 @@ const Register3 = () => {
         bio : "",
     }); 
 
-const countRef = useRef(0); // 컴포넌트가 리렌더링 되어도 리셋되지 않음
-const inputRef = useRef(); // 컴포넌트가 리렌더링 되어도 리셋되지 않음
+const countRef = useRef(0); // 컴포넌트가 리렌더링 되어도 리셋 X
+const inputRef = useRef();
 
 // let count = 0; 은 계속 리셋됨
 

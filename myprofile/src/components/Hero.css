@@ -1,6 +1,6 @@
 /* Hero 섹션 스타일 */
 .hero {
-    background-color: #4A6CF7; /* Hero 섹션 배경색 */
+    background-color: #1f4cff; /* Hero 섹션 배경색 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ h3 {
 
 .hero-button {
     background-color: white;
-    color: #4A6CF7;
+    color: #1f4cff;
     font-size: 18px;
     font-weight: bold;
     padding: 10px 20px;

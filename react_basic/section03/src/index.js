@@ -21,6 +21,6 @@
 import randomColor from 'randomcolor'; //라이브러리는 경로 필요 X 이름만
 
 const color = randomColor();
-console.log(color); // 컬러값이 랜덤으로 출력됨
+console.log(color); // 컬러값이 랜덤으로 출력
 
 

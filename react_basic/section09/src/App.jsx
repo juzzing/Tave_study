@@ -32,6 +32,10 @@ function reducer (state,action) {
       return [action.data, ...state];
     case 'UPDATE': 
       return state.map((item)=>item.id === action.targetId ? {...item,isDone:!item.isDone} : item);
+    case 'DELETE':
+      return state.filter((item=>item.id !== action.targetId));
+    default :
+      return state;
   }
 }
 
@@ -55,12 +59,14 @@ function App() {
     dispatch({
       type:"UPDATE",
       targetId:targetId,
-    }
-    )
+    })
   };
 
   const onDelete = (targetId) => {
-    setTodos(todos.filter((todo) => todo.id !== targetId));
+    dispatch({
+      type:"DELETE",
+      targetId: targetId,
+    })
   };
 
   return (

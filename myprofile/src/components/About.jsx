@@ -27,28 +27,28 @@ const About = () => {
 
         <div className="info-block">
             <h3>WORK</h3>
-            <p></p>
+            <p>내 자취방</p>
             <p></p>
         </div>
 
         <div className="info-block">
             <h3>SKILLS</h3>
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>라면 끓이기</p>
+            <p>오므라이스</p>
+            <p>닭가슴살 해동</p>
             <p></p>
         </div>
 
         <div className="info-block">
             <h3>ACTIVITIES</h3>
-            <p></p>
-            <p></p>
+            <p>꿈빛파티시엘</p>
+            <p>흑백요리사</p>
         </div>
 
         <div className="info-block">
-            <h3>WORK SCOPE</h3>
-            <p></p>
-            <p></p>
+            <h3>BEST MENU</h3>
+            <p>엽기떡볶이</p>
+            <p>아이스박스</p>
             <p></p>
             <p></p>
         </div>

@@ -7,7 +7,7 @@ const About = () => {
         <div className="about-content">
         {/* 왼쪽 프로필 섹션 */}
         <div className="profile-section">
-            <div className="profile-image">
+            <div className="profile-image">   
             </div>
             <h2 className="profile-name">KIM <span className="highlight2">MINJU</span></h2>
             <p className="profile-contact">
@@ -35,14 +35,14 @@ const About = () => {
             <h3>SKILLS</h3>
             <p>라면 끓이기</p>
             <p>오므라이스</p>
-            <p>닭가슴살 해동</p>
+            <p></p>
             <p></p>
         </div>
 
         <div className="info-block">
             <h3>ACTIVITIES</h3>
             <p>꿈빛파티시엘</p>
-            <p>흑백요리사</p>
+            <p></p>
         </div>
 
         <div className="info-block">

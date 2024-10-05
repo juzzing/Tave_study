@@ -2,9 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 20px;
+    padding: 10px 20px;
     background-color: white;
     border-bottom: 1px solid #e0e0e0;
+    position: fixed;
+    top:0;
+    left:0;
+    width:calc(100% - 20px);
+    box-sizing: border-box;
+    z-index: 1000;
+    height: 60px;
+    margin-left: 10px;
+.logo {
+    display: flex;
+    align-items: center;
+}
 
 .logo-text {
     font-size: 24px;

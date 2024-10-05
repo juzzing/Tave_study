@@ -4,46 +4,20 @@
     margin-bottom: 20px;
 }
 
-.goal1-section {
+.goal-section {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 25%;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.goal1-name {
+.goal-name {
     font-size: 24px;
     font-weight: bold;
 }
 
-.goal2-section {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 25%;
-    text-align: center;
-}
-
-.goal2-name {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.goal3-section {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 25%;
-    text-align: center;
-}
-
-.goal3-name {
-    font-size: 24px;
-    font-weight: bold;
-}
 
 

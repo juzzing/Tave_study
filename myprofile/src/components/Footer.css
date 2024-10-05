@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #707070; /* 푸터 배경색 */
+    padding: 10px 20px; /* 푸터 패딩 */
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px; /* 아이콘 간격 */
+}
+
+.icon {
+    width: 30px; /* 아이콘 크기 */
+    height: 30px;
+    background-color: white; /* 아이콘 색상 */
+    border-radius: 5px; /* 모서리 둥글게 */
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    color: white; /* 텍스트 색상 */
+    font-size: 18px; /* 텍스트 크기 */
+    font-weight: bold;
+}
+
+.footer-text .emoji {
+    margin: 0 5px; /* 이모지와 글자 사이 간격 */
+    font-size: 24px; /* 이모지 크기 */
+}

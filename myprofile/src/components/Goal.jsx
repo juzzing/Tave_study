@@ -7,15 +7,18 @@ const Goal = () => {
         <div className="about-content">
 
         <div className="goal-section">
-            <h2 className="goal-name">밥먹기</h2>
+            <h1 className="goal-name">1</h1>
+            <h2 className="goal-detail">밥 잘 먹기</h2>
         </div>
 
         <div className="goal-section">
-            <h2 className="goal-name">밥먹기</h2>
+            <h1 className="goal-name">2</h1>
+            <h2 className="goal-detail">열심히 하기</h2>
         </div>
 
         <div className="goal-section">
-            <h2 className="goal-name">밥먹기</h2>
+            <h1 className="goal-name">3</h1>
+            <h2 className="goal-detail">싸우지 말기</h2>
         </div>
 
 

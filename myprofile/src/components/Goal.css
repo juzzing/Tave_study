@@ -5,18 +5,33 @@
 }
 
 .goal-section {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 25%;
+    padding: 10px;
+    width: 250px;
     text-align: center;
     margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #487EDE;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .goal-name {
     font-size: 24px;
     font-weight: bold;
+    background-color: #487EDE;
+    padding:5px;
+    color: white;
+    margin: -11px;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+}
+
+.goal-detail {
+    font-size: 20px;
+    margin: 20px;
+    padding-top:15px;
+
 }
 
 

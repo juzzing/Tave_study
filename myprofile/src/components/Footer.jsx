@@ -1,4 +1,5 @@
 import React from 'react';
+import memoImage2 from "../assets/미모지브이.png"
 import './Footer.css'; // 스타일을 위한 별도의 CSS 파일
 
 const Footer = () => {
@@ -12,7 +13,9 @@ const Footer = () => {
         <div className="icon"></div>
     </div>
         <div className="footer-text">
-        <span>PORTFOLIO.</span>
+        <span>P</span>
+        <img className="footer-image" src={memoImage2}/>
+        <span>RTFOLIO.</span>
     </div>
     </footer>
 );

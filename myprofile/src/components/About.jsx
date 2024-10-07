@@ -1,4 +1,5 @@
 import './About.css';
+import memoImage from '../assets/미모지윙크.png';
 
 const About = () => {
     return (
@@ -7,8 +8,7 @@ const About = () => {
         <div className="about-content">
         {/* 왼쪽 프로필 섹션 */}
         <div className="profile-section">
-            <div className="profile-image">   
-            </div>
+            <img className='profile-image' src={memoImage} alt='Profile Memoji' />
             <h2 className="profile-name">KIM <span className="highlight2">MINJU</span></h2>
             <p className="profile-contact">
             <i className="fas fa-phone"></i> 010-9233-5190 <br />
@@ -27,28 +27,28 @@ const About = () => {
 
         <div className="info-block">
             <h3>WORK</h3>
-            <p>내 자취방</p>
+            <p></p>
             <p></p>
         </div>
 
         <div className="info-block">
             <h3>SKILLS</h3>
-            <p>라면 끓이기</p>
-            <p>오므라이스</p>
+            <p></p>
+            <p></p>
             <p></p>
             <p></p>
         </div>
 
         <div className="info-block">
             <h3>ACTIVITIES</h3>
-            <p>꿈빛파티시엘</p>
+            <p></p>
             <p></p>
         </div>
 
         <div className="info-block">
-            <h3>BEST MENU</h3>
-            <p>엽기떡볶이</p>
-            <p>아이스박스</p>
+            <h3>WORK SPACE</h3>
+            <p></p>
+            <p></p>
             <p></p>
             <p></p>
         </div>

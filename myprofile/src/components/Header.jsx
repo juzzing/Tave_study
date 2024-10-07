@@ -1,4 +1,5 @@
 import './Header.css'
+import memoImage2 from "../assets/미모지브이.png"
 import { useState } from 'react';
 
 const Header = () => {
@@ -11,7 +12,9 @@ const Header = () => {
     return (
         <header className="header">
         <div className="logo">
-            <h1 className="logo-text">PORTFOLIO.</h1>
+            <h1 className="logo-text">P</h1>
+            <img className="logo-image" src={memoImage2}/>
+            <h1 className="logo-text">RTFOLIO.</h1>
         </div>
         <div className="nav-container">
                 <nav className={`nav ${isOpen ? 'open' : ''}`}>

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #707070; /* 푸터 배경색 */
+    background-color: #898989; /* 푸터 배경색 */
     padding: 10px 20px; /* 푸터 패딩 */
 }
 
@@ -22,11 +22,12 @@
     display: flex;
     align-items: center;
     color: white; /* 텍스트 색상 */
-    font-size: 18px; /* 텍스트 크기 */
+    font-size: 24px; /* 텍스트 크기 */
     font-weight: bold;
 }
 
-.footer-text .emoji {
-    margin: 0 5px; /* 이모지와 글자 사이 간격 */
-    font-size: 24px; /* 이모지 크기 */
+.footer-image {
+    width:30px;
+    height: auto;
+    margin: 0px -7px -5px -4px;
 }

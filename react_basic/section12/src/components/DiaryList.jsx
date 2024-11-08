@@ -36,7 +36,7 @@ const DiaryList = ({data}) => {
             text = {"새 일기 쓰기"} type={"POSITIVE"}/>
         </div>
         <div className="list_wrapper"></div>
-        {sortedData.map((item) => <DiaryItem key={item.id} {...item}/>)}
+        {sortedData.map((item) => (<DiaryItem key={item.id} {...item}/>))}
     </div>
     )
 };
